@@ -3,11 +3,11 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Javalocate < Formula
 
-  desc "Command line utility to find JVM versions on macOS" 
+  desc "Command line utility to find JVM versions on macOS and Linux" 
   homepage "https://github.com/dameikle/javalocate"
-  url "https://github.com/dameikle/javalocate/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "4b6eb551fc1fbbf3024ee32118b7252f63da96455bde29818adfd03cf07cae93"
-  version "0.3.1"
+  url "https://github.com/dameikle/javalocate/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "6f7d07209df67a36d42732884c6d08f5c476fbca04b109dc91a8743c83b7a047"
+  version "0.3.2"
   depends_on "rust" => :build
 
 def install
