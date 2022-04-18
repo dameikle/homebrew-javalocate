@@ -5,9 +5,9 @@ class Javalocate < Formula
 
   desc "Command line utility to find JVM versions on macOS and Linux" 
   homepage "https://github.com/dameikle/javalocate"
-  url "https://github.com/dameikle/javalocate/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "3ef0390b8720a6993e3f6ec66df1f53d9537d704a1f3425f13fd8b4cc6d0c3a4"
-  version "0.5.1"
+  url "https://github.com/dameikle/javalocate/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "073d61f43660fe35851201fb9946cc4eba2789a8dc25ad353cd56d78f9f9d18f"
+  version "0.6.0"
   depends_on "rust" => :build
 
 def install
